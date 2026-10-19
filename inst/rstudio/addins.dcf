@@ -1,0 +1,4 @@
+Name: Submit to MarkUs
+Description: Submit the active RStudio document to a MarkUs assignment.
+Binding: markus_submit_addin
+Interactive: true

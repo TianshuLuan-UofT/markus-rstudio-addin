@@ -1,0 +1,18 @@
+Package: MarkUsRStudioAddin
+Title: Submit RStudio Files to MarkUs
+Version: 0.1.0
+Authors@R: person("Tianshu", "Luan", role = c("aut", "cre"),
+    email = "tianshu.luan@utoronto.ca")
+Description: Provides an RStudio addin for submitting files to MarkUs.
+    Uses a local identity broker to authenticate RStudio users without
+    requiring students to enter MarkUs credentials or API keys.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    shiny,
+    httr2,
+    curl,
+    rstudioapi
+Suggests:
+    roxygen2
+Config/roxygen2/version: 8.1.0
